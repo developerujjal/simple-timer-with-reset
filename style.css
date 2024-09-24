@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0px 0px 0px;
+}
+
+.counting-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.number-increase {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.btn-container button {
+    font-size: 1rem;
+    padding: 7px 24px;
+    margin-right: 10px;
+}
+
+.btn-container button:last-child {
+
+    margin-right: 10px;
+}
